@@ -27,3 +27,9 @@ textarea {
         padding: 0;
     }
 }
+
+.content-wrapper {
+    float: none;
+    margin: 0 auto;
+    width: 500px;
+}
