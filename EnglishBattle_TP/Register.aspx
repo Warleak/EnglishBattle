@@ -131,7 +131,7 @@
         <%--Boutton submit--%>
         <div class="form-group row">
             <div class="col-md-4 col-md-offset-4">
-                <asp:Button ID="btn_submit" runat="server" Text="Valider" CausesValidation="true" OnClick="btn_submit_Click" />
+                <asp:Button ID="btn_submit" runat="server" Text="Valider" CausesValidation="true" OnClick="btn_submit_Click"/>
             </div>
         </div>
 

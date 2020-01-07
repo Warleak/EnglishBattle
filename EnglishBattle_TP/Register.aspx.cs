@@ -11,4 +11,9 @@ public partial class Register : System.Web.UI.Page
     {
 
     }
+
+    protected void btn_submit_Click(object sender, EventArgs e)
+    {
+
+    }
 }
