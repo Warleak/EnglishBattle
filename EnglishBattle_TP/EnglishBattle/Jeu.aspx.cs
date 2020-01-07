@@ -11,4 +11,14 @@ public partial class EnglishBattle_Jeu : System.Web.UI.Page
     {
 
     }
+
+    protected void Unnamed_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Submit_Click(object sender, EventArgs e)
+    {
+
+    }
 }
