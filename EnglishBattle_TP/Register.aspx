@@ -9,7 +9,7 @@
         <%--Nom--%>
         <div class="form-group row">
             <div class="col-md-4">
-                <asp:Label ID="lbl_nom" runat="server" AssociatedControlID="txt_nom" CssClass="control-label">Nom</asp:Label>
+                <asp:Label ID="lbl_nom" runat="server" AssociatedControlID="txt_nom" CssClass="control-label">Nom:</asp:Label>
             </div>
             <div class="col-md-4">
                 <asp:TextBox ID="txt_nom" runat="server" CssClass="form-control"></asp:TextBox>
@@ -30,7 +30,7 @@
         <%--Prenom--%>
         <div class="form-group row">
             <div class="col-md-4">
-                <asp:Label ID="lbl_prenom" runat="server" AssociatedControlID="txt_prenom" CssClass="control-label">Prenom</asp:Label>
+                <asp:Label ID="lbl_prenom" runat="server" AssociatedControlID="txt_prenom" CssClass="control-label">Prenom:</asp:Label>
             </div>
             <div class="col-md-4">
                 <asp:TextBox ID="txt_prenom" runat="server" CssClass="form-control"></asp:TextBox>
@@ -51,7 +51,7 @@
         <%--Email--%>
         <div class="form-group row">
             <div class="col-md-4">
-                <asp:Label ID="lbl_email" runat="server" AssociatedControlID="txt_email" CssClass="control-label">Email</asp:Label>
+                <asp:Label ID="lbl_email" runat="server" AssociatedControlID="txt_email" CssClass="control-label">Email:</asp:Label>
             </div>
             <div class="col-md-4">
                 <asp:TextBox ID="txt_email" runat="server" TextMode="Email" CssClass="form-control"></asp:TextBox>
@@ -72,7 +72,7 @@
         <%--Mot de passe--%>
         <div class="form-group row">
             <div class="col-md-4">
-                <asp:Label ID="lbl_mdp" runat="server" AssociatedControlID="txt_mdp" CssClass="control-label">Mot de passe</asp:Label>
+                <asp:Label ID="lbl_mdp" runat="server" AssociatedControlID="txt_mdp" CssClass="control-label">Mot de passe:</asp:Label>
             </div>
             <div class="col-md-4">
                 <asp:TextBox ID="txt_mdp" runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
@@ -92,6 +92,9 @@
 
         <%--Niveau--%>
         <div class="form-group row">
+            <div class="col-md-4">
+                <asp:Label ID="lbl_niveau" runat="server" AssociatedControlID="ddl_niveau" CssClass="control-label">Niveau:</asp:Label>
+            </div>
             <div class="col-md-4 col-md-offset-4">
                 <asp:DropDownList ID="ddl_niveau" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
@@ -111,6 +114,9 @@
 
         <%--Ville--%>
         <div class="form-group row">
+            <div class="col-md-4">
+                <asp:Label ID="lbl_ville" runat="server" AssociatedControlID="ddl_ville" CssClass="control-label">Ville:</asp:Label>
+            </div>
             <div class="col-md-4 col-md-offset-4">
                 <asp:DropDownList ID="ddl_ville" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
